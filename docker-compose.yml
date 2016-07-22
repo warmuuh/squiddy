@@ -1,0 +1,12 @@
+version: '2'
+services:
+    rabbit-mgmt: 
+        image: rabbitmq:3-management
+        ports:
+            - "8080:15672"
+            - "5672:5672"
+        hostname: rabbit-queue    
+    mongodb:
+        image: mongo
+        ports:
+            - "27017:27017"

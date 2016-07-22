@@ -1,0 +1,31 @@
+target
+.cache
+*.log
+temp_persist_config*.xml*
+MANIFEST.MF
+.cache-main
+.cache-tests
+
+# IntelliJ specific
+.idea/
+.metadata/
+squbsconfig/
+*.sc
+*.DS_Store
+shgrowth.iml
+shgrowthService.iml
+
+# eclipse specific
+.project
+.settings
+.classpath
+.tmpBin
+
+shgrowthService/src/site
+
+ConfigRoot/
+
+.ensime
+.ensime_cache/
+
+tomcat.8080/
