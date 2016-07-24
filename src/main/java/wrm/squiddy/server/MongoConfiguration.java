@@ -39,8 +39,6 @@ import com.mongodb.reactivestreams.client.MongoDatabase;
 import wrm.squiddy.server.tests.TestRepository;
 
 /**
- * @author Sebastien Deleuze
- * @author Mark Paluch
  */
 @Configuration
 public class MongoConfiguration implements BeanClassLoaderAware, BeanFactoryAware {
